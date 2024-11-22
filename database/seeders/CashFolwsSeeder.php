@@ -39,12 +39,12 @@ class CashFolwsSeeder extends Seeder
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
         DB::table('cash_folows')->insert([
-            'name'=>'Greater than or equal to',
+            'tipo_flujo'=>'Greater than or equal to',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
         DB::table('cash_folows')->insert([
-            'name'=>'Less than or equal to',
+            'tipo_flujo'=>'Less than or equal to',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
