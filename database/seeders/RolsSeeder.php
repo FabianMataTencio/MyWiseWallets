@@ -18,7 +18,7 @@ class RolsSeeder extends Seeder
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
-        DB::table('stars')->insert([
+        DB::table('rols')->insert([
             'rol_name'=>'User',
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
