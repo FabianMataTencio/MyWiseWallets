@@ -45,6 +45,7 @@ class CreateEconomicGoal extends Component
             'start_date' => $data['start_date'],
             'deadline' => $data['deadline'],
             'goal_amount' => $data['goal_amount'],
+            'funds_deposited' => 0,
             'user_id' => auth()->id(),
             'categorie_id' => $category->id,
             'cash_folow_id' => $data['cash_folow_id'],
